@@ -64,7 +64,7 @@ echo "\n\n";
 
 for($i=0;$i<count($webcode['news']);$i++){
     echo '<div class="headline-background">'."\n";
-    echo '<a href="' .$webcode['news'][$i]['share_url']. '" class="headline-background-link">'."\n";
+    echo '<a href="' .$webcode['news'][$i]['share_url']. '" target="_blank" class="headline-background-link">'."\n";
     echo '<div class="heading-content">' .$webcode['news'][$i]['title']. '</div>'."\n";
     echo '<i class="icon-arrow-right"></i>'."\n";
     echo '</a>'."\n";
