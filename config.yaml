@@ -1,8 +1,7 @@
 name: zhihudaily
 version: 1
-accesskey: *******
 cron:
     - description: another cron test
-    url: fetch.php
-	  schedule: every 10 mins,offset 0, from 6:00 to 24:00
+	  url: fetch.php
+	  schedule: every 10 mins,offset 0, from 0:00 to 0:10 and 6:00 to 24:00
 	  timezone: Beijing
