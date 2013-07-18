@@ -2,11 +2,11 @@ name: zhihudaily
 version: 1
 cron:
     - description: cron 1
-	  url: fetch.php&cron=1
+	  url: fetch.php?cron=1
 	  schedule: every 10 mins,offset 0, from 0:00 to 0:10
 	  timezone: Beijing
       
     - description: cron 2
-	  url: fetch.php&cron=2
+	  url: fetch.php?cron=2
 	  schedule: every 10 mins,offset 0, from 6:00 to 24:00
 	  timezone: Beijing
