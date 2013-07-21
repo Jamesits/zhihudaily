@@ -1,7 +1,8 @@
 #Zhihu Daily Web Portal on SAE
 -----------------------------------
 
-Differences between this project and https://github.com/faceair/zhihudaily 
+Differences between this project and https://github.com/faceair/zhihudaily:
+
 1. This project uses MySQL Database instead of text files.
 2. this project can show thumbnails.
 3. More APIs Supported:
@@ -17,7 +18,8 @@ Donation needed, since I will soon run out of the free limits of SAE, and I don'
 #知乎日报网页版
 -----------------------------------
 
-和 https://github.com/faceair/zhihudaily 这个项目的主要区别
+和 https://github.com/faceair/zhihudaily 这个项目的主要区别：
+
 1.本项目使用 MySQL 数据库存储数据，而不是文本文件。
 2.本项目带有缩略图显示。
 3.支持更多的参数：
