@@ -1,12 +1,13 @@
-name: zhihudaily
-version: 1
+//Zhihu Daily Web Portal: Cron task settings
+
+//Usage:
+//Add the following lines to your own config.yaml file.
+//If you have a "cron:" block, copy the lest four lines and paste it to the end of your "cron:" block.
+//Change the url to your own url.
+//Remember to commit!
+
 cron:
-    - description: cron 1
-	  url: fetch.php?cron=1
-	  schedule: every 10 mins,offset 0, from 0:00 to 0:10
-	  timezone: Beijing
-      
-    - description: cron 2
-	  url: fetch.php?cron=2
-	  schedule: every 10 mins,offset 0, from 6:00 to 24:00
-	  timezone: Beijing
+- description: zhihudaily_sql
+  url: fetch.php
+  schedule: every 60 mins,offset 0, from 6:00 to 24:00
+  timezone: Beijing
