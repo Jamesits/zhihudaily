@@ -30,4 +30,4 @@ Donation needed, since I will soon run out of the free limits of SAE, and I don'
 
 联系方式：jamesswineson#gmail.com
 
-我在 SAE 上面赠送的那点免费云豆就要用完啦！求捐助！
+我在 SAE 上面赠送的那点免费云豆就要用完啦！苦逼高中生无收入来源！求捐助！
