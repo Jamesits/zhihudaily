@@ -1,5 +1,4 @@
 #Zhihu Daily Web Portal on SAE
------------------------------------
 
 Differences between this project and https://github.com/faceair/zhihudaily:
 
@@ -16,7 +15,6 @@ Contant me: jamesswineson#gmail.com
 Donation needed, since I will soon run out of the free limits of SAE, and I don't have any income.
 
 #知乎日报网页版
------------------------------------
 
 和 https://github.com/faceair/zhihudaily 这个项目的主要区别：
 
