@@ -29,12 +29,18 @@
     
 <?php 
 $mysql=new SaeMysql();
+if(!$_GET["search"]){
+    
 if(!$_GET["before"]){
     $date=date("Ymd");
 } else {
     $date=date("Ymd",(strtotime($_GET["before"])));
 }
 $sql="SELECT * FROM zhihudaily_contents WHERE date=$date ORDER BY ga_prefix DESC";
+} else {//search
+    $search=!$_GET["search"];
+    $sql="SELECT * FROM zhihudaily_contents WHERE title LIKE $search ORDER BY ga_prefix DESC";
+}
 $webcode_raw=$mysql->getData($sql);
 $webcode["news"]=$webcode_raw;
 $srttime=date("w");
